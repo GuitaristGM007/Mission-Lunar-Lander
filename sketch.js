@@ -19,20 +19,20 @@ localStorage = ["highestScore"];
 localStorage[0] = 0;
 
 function preload(){
-lander_img = loadImage("./assets/normal.png");
-blastImage = loadImage("./assets/blast.png");
-bg_img = loadImage("./assets/bg_sur.png");
-rocksImage = loadImage("./assets/rock.png");
-playButtonImage = loadImage("./assets/playIcon.png");
-resetButtonImage = loadImage("./assets/resetIcon.png");
-mechanismImage = loadImage("./assets/mechanism.jpg");
-realMechImage = loadImage("./assets/realMech.png");
-backImage = loadImage("./assets/back.png");
-titleFont = loadFont("./fonts/brocheCut.otf");
-rulesFont = loadFont("./fonts/SLANT.TTF");
-blastMusic = loadSound("./assets/blastSound.mp3");
-scoreMusic = loadSound("./assets/scoreSound.mp3");
-speechMusic = loadSound("./assets/speechSound.mp3");
+lander_img = loadImage("normal.png");
+blastImage = loadImage("blast.png");
+bg_img = loadImage("bg_sur.png");
+rocksImage = loadImage("rock.png");
+playButtonImage = loadImage("playIcon.png");
+resetButtonImage = loadImage("resetIcon.png");
+mechanismImage = loadImage("mechanism.jpg");
+realMechImage = loadImage("realMech.png");
+backImage = loadImage("back.png");
+titleFont = loadFont("brocheCut.otf");
+rulesFont = loadFont("SLANT.TTF");
+blastMusic = loadSound("blastSound.mp3");
+scoreMusic = loadSound("scoreSound.mp3");
+speechMusic = loadSound("speechSound.mp3");
 }
 
 function setup() {
